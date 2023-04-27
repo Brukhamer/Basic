@@ -184,8 +184,34 @@ a{
 }
 .about{
     margin-top: 50px;
+     display: flex;
+    flex-direction: column;
+
 
 }
 .about_text .title_block{
     text-align: left;
+}
+.about_text .title_block:before{
+    left: 16%;
+}
+.about_text .desc_cart{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.why{
+    display: flex;
+
+}
+.why_img{
+    position: relative;
+}
+.dots{
+    position: absolute;
+    z-index: -2;
+
+}
+.desktop{
+    width: 525px;
+
 }
