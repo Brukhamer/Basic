@@ -354,3 +354,65 @@ a{
     background: url("../img/team-3.png");
     background-size: cover;
 }
+.blog{
+    margin-top: 50px;
+    position: relative;
+}
+.blog .title_block{
+    text-align: start;
+    margin-bottom: 25px;
+}
+.blog .title_block:before{
+    left: 6%;
+}
+.blogs{
+    display: flex;
+    justify-content: space-between;
+}
+.item_info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.item{
+    width: 350px;
+}
+.info{
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+.item .desc_cart{
+    font-size: 23px;
+    text-align: left;
+    color: #000;
+    font-weight: 800;
+}
+.item a{
+    font-family: Lato sans-serif;
+    font-size: 16px;
+    color: #fe8464;
+    margin-top: 10px;
+}
+.item a:after{
+    content: ">";
+    margin-left: 5px;
+    font-size: 24px;
+}
+.authors{
+    margin-top: 50px;
+    position: relative;
+}
+.authors_blocks{
+    display: block;
+    border: 2px;
+}
+.authors_block{
+    display: block;
+
+}
+.authors_text{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    display: block;
+    width: 286px;
+}
